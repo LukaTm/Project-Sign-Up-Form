@@ -1,3 +1,5 @@
+
+
 @font-face {
     font-family: my-font;
     src: url(../Norse-Bold.otf);
@@ -5,23 +7,30 @@
 
 body {
     margin: 0;
+    display: flex;
 }
 
 
 .container {
     background-image: url('../photos/halie.jpg');
     background-repeat: no-repeat;
-    background-size: 32%;
+    height: 1000px;
+    width: 500px;
+    background-size: cover;
+    background-position: center center;
     display: flex;
     height: 100vh;
+
 }
+
 
 .box{
     height: 150px;
-    width: 32%;
+    width: 100%;
     margin-top: 22vh;
     background-color: rgba(0, 0, 0, 0.4);
     color: white;
+
 }
 
 .box-inside{
@@ -30,10 +39,34 @@ body {
     align-items: center;
     font-family: my-font;
     font-size: 2rem;
+    padding: 0 150px;
+    
 }
 
 .odin-image{
     height: 130px;
 }
 
+#one{
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+
+#two{
+    margin-bottom: 80px;
+}
+
+.right{
+    margin-left: 50px;
+}
+
+.up-text{
+    width: 73vh;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.forms{
+
+}
 
