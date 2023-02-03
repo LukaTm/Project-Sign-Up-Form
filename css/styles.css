@@ -1,3 +1,8 @@
+@font-face {
+    font-family: my-font;
+    src: url(../Norse-Bold.otf);
+}
+
 body {
     margin: 0;
 }
@@ -14,8 +19,21 @@ body {
 .box{
     height: 150px;
     width: 32%;
-    background-color: rgb(0, 0, 0);
+    margin-top: 22vh;
+    background-color: rgba(0, 0, 0, 0.4);
     color: white;
-    opacity: 0.3;
 }
+
+.box-inside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: my-font;
+    font-size: 2rem;
+}
+
+.odin-image{
+    height: 130px;
+}
+
 
