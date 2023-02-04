@@ -10,20 +10,59 @@
 <body>
     <div class="container">
         <div class="box">
-            <div class="box-inside">
-                <img class="odin-image" src="./photos/odin-lined.png" alt="">
-                <h1 class="box-text">ODIN</h1>
-            </div>
+                <div class="box-inside">
+                    <img class="odin-image" src="./photos/odin-lined.png" alt="">
+                    <h1 class="box-text">ODIN</h1>
+                </div>
+        <p id="author">Photo by <span class="underline">Halie West</span> on <span class="underline">Unsplash</span></p>
         </div>
     </div>
-    <div class="right">
-        <div class="up-text">
-            <p id="one">This is not a real online service! You know you need something like this in your life to help your realize your deepest dreams. Sign up now to get started.</p>
-            <p id="two">You know you want to.</p>
-            <p id="three">Let's do this!</p>
+    <div class="right-side">
+        <div class="main-box">
+            <div class="right">
+                <div class="up-text">
+                    <p id="one">This is not a real online service! You know you need something like this in your life to help your realize your deepest dreams. Sign up now to get started.</p>
+                    <p id="two">You know you want to.</p>
+                    <p id="three">Let's do this!</p>
+                </div>
+                <form class="forms">
+                    <div class='row-one'>
+                        <div class="all-forms">
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" name="first-name" id="first-name">
+                        </div> 
+                        <div class="all-forms">
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" name="last-name" id="last-name">
+                        </div>
+                    </div>
+                    <div class="row-two">
+                        <div class="all-forms">
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        <div class="all-forms">
+                            <label for="phone">PHONE NUMBER</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                    </div>
+                    <div class="row-three">
+                        <div class="all-forms">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password" name="password">
+                        </div>
+                        <div class="all-forms">
+                            <label for="confirm-password">CONFIRM PASSWORD</label>
+                            <input type="password" id="confirm-password" name="confirm-password">
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
-        <div class="forms"></div>
-        <div class="foot"></div>
+        <div class="submit-button">
+            <button type="submit">Create Account</button>
+            <p>Already have an account?</p>
+        </div>
     </div>
 </body>
 </html>
