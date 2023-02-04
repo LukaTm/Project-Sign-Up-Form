@@ -72,12 +72,7 @@ span{
     margin-bottom: 80px;
 }
 
-input{
-    width: 250px;
-    height: 25px;
-    border-radius: 4px;
-    border: 1px solid #E5E7EB;
-}
+
 
 
 label{
@@ -91,15 +86,23 @@ label{
 }
 
 
-.row-one, .row-two, .row-three {
+.row-one, .row-two, .row-three{
     display: flex;
     margin-bottom: 10px;
 }
 
+
 .all-forms{
     margin-bottom: 20px;
     margin-right: 60px;
+    position: relative;
+}
 
+input{
+    width: 250px;
+    height: 25px;
+    border-radius: 4px;
+    border: 1px solid #E5E7EB;
 }
 
 input:focus {
@@ -150,6 +153,7 @@ button{
 }
 button:hover{
     background-color: #6a8353;
+    cursor: pointer;
 }
 
 .submit-button{
@@ -162,3 +166,10 @@ a{
     font-size: 1.2rem;
     font-weight: bold;
 }
+
+#dont-match{
+    font-size: 0.8rem;
+    position: absolute;
+    bottom: -28px;
+}
+
